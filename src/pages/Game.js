@@ -74,7 +74,7 @@ class Game extends Component {
       <div>
         <Container>
           <h1 className="text-center">Clicky Game</h1>
-          <h4 className="text-center">The objective of this game is to select all the images without selecting the same image twice. Evertime an image is selected the order will be randomized.</h4>
+          <h4 className="text-center">The objective of this game is to select all the images without selecting the same image twice. Every time an image is selected the order will be randomized.</h4>
           <Score guessed={this.state.clickedImages.length}/>
           {this.state.status == "won" ? (
             <h2 className="text-center text-success">You won<br/>Starting a new game!</h2>
